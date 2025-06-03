@@ -6,6 +6,7 @@
 
     --gradient-cross: linear-gradient(90deg, #1027F0 1%, #001B37 99%);
     --gradient-linear: linear-gradient(90deg, #1027F0 -17.4%, #001B37 132.51%);
+    --gradient-silver: linear-gradient(90deg, #FFF 0%, #C0C0C0 100%);
 
     /* Fonts */
     --headline-font: "creatodisplay-medium", sans-serif;

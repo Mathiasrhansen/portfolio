@@ -91,9 +91,16 @@ p, a {
 }
 
 .white-btn {
-        border-radius: 1rem;
-        padding: 0.5rem 2rem;
-    }
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.blue-btn {
+    background: linear-gradient(white, white) padding-box, linear-gradient(90deg, #1027F0 -17.4%, #001B37 132.51%) border-box;
+    border-radius: 1rem;
+    border: 4px solid transparent;
+    padding: 0.5rem 2rem;
+}
 /* CTA - desktop */
 @media screen and (min-width: 601px) {
     .white-btn {
