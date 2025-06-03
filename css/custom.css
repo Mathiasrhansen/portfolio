@@ -1,0 +1,26 @@
+:root {
+    /* Farvepalette */
+    --electric-blue: #1027F0;
+    --dark-blue: #001B37;
+    --silver: #c0c0c0;
+
+    --gradient-cross: linear-gradient(90deg, #1027F0 1%, #001B37 99%);
+    --gradient-linear: linear-gradient(90deg, #1027F0 -17.4%, #001B37 132.51%);
+
+    /* Fonts */
+    --headline-font: "creatodisplay-medium", sans-serif;
+    --body-font: "inter-regular", sans-serif;
+
+    /* Fontsizes desktop */
+    --headline-fontsize-desktop: 96px;
+    --headline2-fontsize-desktop: 48px;
+    --headline3-fontsize-desktop: 40px;
+    --bodytext-fontsize-desktop: 16px;
+    --cta-fontsize-desktop: 16px;
+
+    /* Fontsizes mobile */
+    --headline-fontsize: 48px;
+    --headline2-fontsize: 36px;
+    --headline3-fontsize: 20px;
+    --bodytext-fontsize: 16px;
+}

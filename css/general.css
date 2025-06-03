@@ -1,0 +1,108 @@
+html,
+body,
+header,
+footer,
+main,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url(../font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: creatodisplay-medium;
+    src: url(../font/CreatoDisplay-Medium.otf);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--headline-font);
+}
+
+h1 {
+    background-image: var(--gradient-linear);
+    color: transparent;
+    background-clip: text;
+    font-size: var(--headline-fontsize);
+}
+
+h2 {
+    font-size: var(--headline2-fontsize);
+}
+
+h3 {
+    font-size: var(--headline3-fontsize);
+}
+
+p, a {
+    font-family: var(--body-font);
+    font-size: var(--bodytext-fontsize);
+}
+
+/* Fontsizes desktop */
+@media screen and (min-width: 601px) {
+    h1 {
+        font-size: var(--headline-fontsize-desktop);
+    }
+    h2 {
+    font-size: var(--headline2-fontsize-desktop);
+    }
+
+    h3 {
+        font-size: var(--headline3-fontsize-desktop);
+    }
+
+    p, a {
+        font-size: var(--bodytext-fontsize-desktop);
+    }
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh;
+    height: 5vh;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+/* nav */
+
+/* CTA */
+.white-btn {
+    background-color: white;
+    text-decoration: none;
+    color: var(--electric-blue);
+}
+
+.white-btn:hover {
+    color: var(--dark-blue);
+}
+
+.white-btn {
+        border-radius: 1rem;
+        padding: 0.5rem 2rem;
+    }
+/* CTA - desktop */
+@media screen and (min-width: 601px) {
+    .white-btn {
+        border-radius: 1rem;
+        padding: 0.5rem 2rem;
+    }
+}
+
+/* Gennemgående classes */
+.hide {
+    display: none;
+}
