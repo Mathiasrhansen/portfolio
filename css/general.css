@@ -77,12 +77,64 @@ p, a {
     height: auto;
 }
 
-/* nav */
+.burgermenu {
+    cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.burger-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+.burger-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 5vh;
+}
+
+.burger-portfolio a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.burger-content a:hover {
+  transform: scale(1.2);
+}
 
 /* CTA */
 .white-btn {
     background-color: white;
-    text-decoration: none;
     color: var(--electric-blue);
 }
 
@@ -90,16 +142,21 @@ p, a {
     color: var(--dark-blue);
 }
 
-.white-btn {
+/* find ud af hvad der foregår her */
+.white-btn, .blue-btn {
     border-radius: 1rem;
     padding: 0.5rem 2rem;
+    text-decoration: none;
 }
 
 .blue-btn {
-    background: linear-gradient(white, white) padding-box, linear-gradient(90deg, #1027F0 -17.4%, #001B37 132.51%) border-box;
-    border-radius: 1rem;
-    border: 4px solid transparent;
-    padding: 0.5rem 2rem;
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.blue-btn:hover {
+    background-color: #0013B7;
+    transform: scale(1.02);
 }
 /* CTA - desktop */
 @media screen and (min-width: 601px) {
@@ -112,4 +169,20 @@ p, a {
 /* Gennemgående classes */
 .hide {
     display: none;
+}
+
+.blue {
+    background-color: var(--electric-blue);
+}
+
+.medium-blue {
+    background-color: #0013B7;
+}
+
+.dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.black {
+    background-color: black;
 }

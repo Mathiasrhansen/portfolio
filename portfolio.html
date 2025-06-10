@@ -16,8 +16,21 @@
             <img class="logo" src="img/portfolio-logo.png" alt="" />
           </a>
         </div>
-        <div>
+        <div class="burgermenu">
           <img src="img/burgermenu1.svg" alt="" />
+        </div>
+        <div id="nav" class="overlay">
+          <a id="nav-close" class="closebtn">&times;</a>
+          <div class="burger-content">
+            <a href="about.html">Om mig</a>
+            <a href="portfolio.html">Portfolio</a>
+            <div class="burger-portfolio">
+              <a href="portfolio/T02.html">Tema 2</a>
+              <a href="portfolio/T03.html">Tema 3</a>
+              <a href="portfolio/T04.html">Tema 4</a>
+              <a href="portfolio/T05.html">Tema 5</a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -32,67 +45,40 @@
       </section>
       <section class="project-section">
         <div class="project-showcase blue">
-          <div class="img-container">
-            <img src="https://picsum.photos/280" alt="" class="project-img" />
-          </div>
-          <h2 class="gradient-headline-silver">Tema 2</h2>
-          <!-- <h3 class="subheading">Grundlæggende web</h3> -->
-          <!-- <p class="project-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
-            magnam corporis assumenda aperiam nostrum quis soluta unde dicta
-            quas a dignissimos tempore consequatur ipsam culpa, architecto
-            accusamus repudiandae eius debitis fuga optio at molestias.
-            Asperiores ullam officia assumenda eveniet?
-          </p> -->
-          <a class="white-btn" href="">Læs mere</a>
+          <a class="project-card" href="portfolio/T02.html">
+            <div class="img-container">
+              <img src="img/tema2-thumbnail.png" alt="" class="project-img" />
+            </div>
+            <h2 class="gradient-headline-silver">Tema 2</h2>
+          </a>
         </div>
         <div class="project-showcase medium-blue">
-          <div class="img-container">
-            <img src="https://picsum.photos/280" alt="" class="project-img" />
-          </div>
-          <h2 class="gradient-headline-silver">Tema 3</h2>
-          <!-- <h3 class="subheading">Grundlæggende UX/UI</h3> -->
-          <!-- <p class="project-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
-            magnam corporis assumenda aperiam nostrum quis soluta unde dicta
-            quas a dignissimos tempore consequatur ipsam culpa, architecto
-            accusamus repudiandae eius debitis fuga optio at molestias.
-            Asperiores ullam officia assumenda eveniet?
-          </p> -->
-          <a class="white-btn" href="">Læs mere</a>
+          <a href="portfolio/T03.html" class="project-card">
+            <div class="img-container">
+              <img src="img/tema3-thumbnail.png" alt="" class="project-img" />
+            </div>
+            <h2 class="gradient-headline-silver">Tema 3</h2>
+          </a>
         </div>
         <div class="project-showcase dark-blue">
-          <div class="img-container">
-            <img src="https://picsum.photos/280" alt="" class="project-img" />
-          </div>
-          <h2 class="gradient-headline-silver">Tema 4</h2>
-          <!-- <h3 class="subheading">Grundlæggende animation</h3> -->
-          <!-- <p class="project-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
-            magnam corporis assumenda aperiam nostrum quis soluta unde dicta
-            quas a dignissimos tempore consequatur ipsam culpa, architecto
-            accusamus repudiandae eius debitis fuga optio at molestias.
-            Asperiores ullam officia assumenda eveniet?
-          </p> -->
-          <a class="white-btn" href="">Læs mere</a>
+          <a href="portfolio/T04.html" class="project-card">
+            <div class="img-container">
+              <img src="img/tema4-thumbnail.png" alt="" class="project-img" />
+            </div>
+            <h2 class="gradient-headline-silver">Tema 4</h2>
+          </a>
         </div>
         <div class="project-showcase black">
-          <div class="img-container">
-            <img src="https://picsum.photos/280" alt="" class="project-img" />
-          </div>
-          <h2 class="gradient-headline-silver">Tema 5</h2>
-          <!-- <h3 class="subheading">Grundlæggende indhold</h3> -->
-          <!-- <p class="project-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
-            magnam corporis assumenda aperiam nostrum quis soluta unde dicta
-            quas a dignissimos tempore consequatur ipsam culpa, architecto
-            accusamus repudiandae eius debitis fuga optio at molestias.
-            Asperiores ullam officia assumenda eveniet?
-          </p> -->
-          <a class="white-btn" href="">Læs mere</a>
+          <a href="portfolio/T05.html" class="project-card">
+            <div class="img-container">
+              <img src="img/tema5-thumbnail.png" alt="" class="project-img" />
+            </div>
+            <h2 class="gradient-headline-silver">Tema 5</h2>
+          </a>
         </div>
       </section>
     </main>
     <footer></footer>
+    <script src="js/burgermenu.js"></script>
   </body>
 </html>
